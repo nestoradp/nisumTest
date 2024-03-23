@@ -7,6 +7,6 @@ import com.nisum.test.security.domain.exception.UserAlreadyExistsException;
 public interface IUserService {
     public UserBasicDTO createUser(UserDTO userDTO) throws UserAlreadyExistsException;
 
-    public boolean isValidIdentificationPattern(String password);
+    public boolean isValidPasswordPattern(String password);
 
 }

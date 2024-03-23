@@ -72,7 +72,7 @@ class CreateUserUseCaseTest {
 
 
 
-        Mockito.when(userService.isValidIdentificationPattern(Mockito.any())).thenReturn(true);
+        Mockito.when(userService.isValidPasswordPattern(Mockito.any())).thenReturn(true);
         Mockito.when(userMapper.convertFromDTO(Mockito.any(UserDTO.class))).thenReturn(userToCreated);
         Mockito.when(authenticationService.createToken(userToCreated)).thenReturn(token);
         Mockito.when(userMapper.convertToBasicDTO(Mockito.any(User.class))).thenReturn(userBasicDTO);

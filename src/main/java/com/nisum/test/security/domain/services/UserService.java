@@ -34,7 +34,7 @@ public class UserService implements IUserService {
 
     @Transactional
     public UserBasicDTO createUser(UserDTO userDTO) throws UserAlreadyExistsException {
-        if (!isValidIdentificationPattern(userDTO.getPassword())) {
+        if (!isValidPasswordPattern(userDTO.getPassword())) {
             throw new IllegalArgumentException("Invalid Password");
         }
 
@@ -44,7 +44,7 @@ public class UserService implements IUserService {
 
     }
 
-    public boolean isValidIdentificationPattern(String password){
+    public boolean isValidPasswordPattern(String password){
         String regex = nisumConfiguration.getPasswordRegex();
         return RegexUtil.validateRegex(password, regex);
 
