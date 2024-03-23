@@ -3,7 +3,7 @@
 ![Logo de Spring](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz7UaM26lbsPblqcbS0E8HD9stqpaNw-UFsDq6dOJP-101C4VSlhp_4XCPrJGubnbl4EE&usqp=CAU)
 
 
-Este es un proyecto de ejemplo desarrollado en Java Spring Boot, utilizando Java 21 y Spring Boot 3.0.2.
+Pueba Técnica Empresa NISUM, proyecto desarrollado en Java Spring Boot, utilizando Java 21 y Spring Boot 3.2.3
 
 ## Levantar el Proyecto con Maven
 
@@ -12,13 +12,13 @@ Para levantar el proyecto utilizando Maven, sigue estos pasos:
 1. Clona el repositorio desde GitHub:
 
     ```bash
-    git clone https://github.com/tu-usuario/proyecto-java-spring-boot.git
+    git clone https://github.com/nestoradp/nisumTest.git
 
     ```
 2. Navega hasta el directorio del proyecto:
 
     ```bash
-    cd proyecto-java-spring-boot   
+    cd nisumTest   
 
 3. Instalar dependencias del proyecto:
 
